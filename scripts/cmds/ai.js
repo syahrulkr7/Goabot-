@@ -29,7 +29,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("Bonjour, comment puis-je vous aidez ? 💖");
+        await message.reply("Hai, senang bertemu denganmu! Aku Aruna, temanmu yang ramah, dan siap membantu. Kamu bisa bertanya padaku tentang jawaban, rekomendasi, saran, atau apapun yang ada di pikiranmu😊");
         return;
       }
 
